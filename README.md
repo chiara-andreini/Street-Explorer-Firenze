@@ -1,2 +1,2 @@
 # Street-Explorer-Firenze
-A map-based interactive web application to discover the origin of place names in Florence, Italy. 
+A map-based interactive web application to discover the origin of street names in Florence, Italy. 
