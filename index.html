@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Street Explorer | Firenze </title>
+    <meta name="keywords" content="map, streets, florence">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <!-- Leaflet stylesheet and script -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="./libs/leaflet/leaflet.css"
+    />
+
+    <link
+            rel="stylesheet"
+            href="./libs/leaflet-search/leaflet-search.css"
+    />
+
+    <script
+            src="./libs/leaflet/leaflet.js">
+    </script>
+
+    <!-- JQuery -->
+
+    <script type="text/javascript" src="./libs/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+
+
+    <!-- Proj4Leaflet script -->
+    <script src="./libs/proj4leaflet/proj4.js"> </script>
+    <script src="libs/proj4leaflet/proj4leaflet.js"> </script>
+
+
+    <script src="./libs/leaflet-search/leaflet-search.js"> </script>
+
+
+    <script src="./files/aree_quartieri.js"> </script>
+
+    <script src="./files/quartiere1-nomi.js"> </script>
+    <script src="./files/quartiere2-nomi.js"> </script>
+    <script src="./files/quartiere3-nomi.js"> </script>
+    <script src="./files/quartiere4-nomi.js"> </script>
+    <script src="./files/quartiere5-nomi.js"> </script>
+
+
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="style.css" />
+
+    <script
+            src="./files/stradario_storico.js">
+    </script>
+
+    <script
+            src="./files/aree_quartieri.js">
+    </script>
+
+
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="container">
+            <ul id="logo">
+                <li>
+                    <a href="index.html">
+                        <img class="brand" src="./images/street-explorer.png" alt="">
+                    </a>
+                </li>
+            </ul>
+
+            <ul id="chisiamo">
+                <li>
+                    <a href="chisiamo.html"> Chi siamo </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+<div id="map"></div>
+
+<script
+    src="map_functions.js">
+</script>
+
+
+</body>
+</html>
